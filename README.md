@@ -39,9 +39,9 @@ cd your-repository-name
 # Install dependencies
 pip install pandas numpy matplotlib seaborn scikit-learn openpyxl
 
-Dataset Structure
-The notebook expects the Online Retail transactional dataset (e.g., Online Retail.xlsx or similar structural source) inside the working directory. The raw dataset must contain features such as InvoiceNo, StockCode, Quantity, InvoiceDate, UnitPrice, and CustomerID.
-  
+---
+---
+
 📊 Models & Evaluation Summary
 The pipeline systematically trains and evaluates two distinct unsupervised clustering architectures over the standardized behavioral data:
 
