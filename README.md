@@ -1,6 +1,6 @@
 # Market Segmentation Using Machine Learning Algorithms
 
-Welcome to the **Market Segmentation Using Machine Learning Algorithms** repository. This project implements a professional, end-to-end unsupervised data science pipeline designed to discover, profile, and evaluate distinct customer segments from large-scale transactional data.
+Welcome to the **Market Segmentation Using Machine Learning Algorithms** repository. This project implements an end-to-end unsupervised data science pipeline designed to discover, profile, and evaluate distinct market segments from large-scale transactional data.
 
 By engineering behavioral features and leveraging advanced clustering techniques, this system transforms raw historical logs into highly actionable business cohorts, enabling data-driven marketing, customer relationship management (CRM), and lifetime value (LTV) optimization.
 
@@ -35,6 +35,7 @@ To set up the project locally, ensure you have Python 3.8+ installed, clone this
 # Clone the repository
 git clone [https://github.com/your-username/your-repository-name.git](https://github.com/your-username/your-repository-name.git)
 cd your-repository-name
+
 ```bash
 
 # Install dependencies
