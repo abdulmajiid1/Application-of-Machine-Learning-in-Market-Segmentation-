@@ -38,3 +38,17 @@ cd your-repository-name
 
 # Install dependencies
 pip install pandas numpy matplotlib seaborn scikit-learn openpyxl
+
+
+
+📊 Models & Evaluation SummaryThe pipeline systematically trains and evaluates two distinct unsupervised clustering architectures over the standardized behavioral data:1. K-Means ClusteringMethodology: Initialized via k-means++ with randomized centroid search parameters.Hyperparameter Tuning: Evaluated over $K \in [2, 10]$ boundaries.Optimal Topology: Determined at $K = 4$ clusters based on joint Elbow and Silhouette optimizations.2. Hierarchical Agglomerative ClusteringMethodology: Bottom-up linkage using Ward’s variance minimization method combined with Euclidean distance metrics.Structure: Set to 4 clusters to allow formal comparative benchmarking against the K-Means layout.Performance BenchmarkingClustering ModelSilhouette Score (Higher is Better)Davies-Bouldin Index (Lower is Better)K-Means ($K=4$)0.33671.0117Agglomerative ($K=4$)0.23851.1200Conclusion: The quantitative validation indicates that K-Means Clustering provides tighter cluster definitions, superior cluster separation, and a more robust foundation for business profiling.🎯 Discovered Customer SegmentsThe optimized K-Means model splits the user base into 4 strategic tiers:Champions (Cluster 3): High-frequency, high-spending premium users with recent engagement. Action Plan: Exclusive VIP tiers, loyalty perks, and early-access launches.Loyal Customers (Cluster 1): Steady, dependable buyers generating consistent mid-to-high revenue share. Action Plan: Category cross-selling and volume discount thresholds.At-Risk Customers (Cluster 2): Recent buyers who have a lower historical frequency. Action Plan: High-relevance product recommendations and immediate retargeting sequences.Lost / Inactive (Cluster 0): Low frequency, low monetary value, and long periods of inactivity. Action Plan: High-incentive win-back campaigns or automated re-engagement surveys.💻 UsageTo run the pipeline and generate the customer classification outputs:Place your retail source dataset in the root folder.Launch the notebook environment:Bashjupyter notebook Market_Segmentation.ipynb
+Execute the cells sequentially. The final cells will save a segmented customer matrix to your local path as rfm_segments_output.csv.👤 AuthorAbdimajid Osman IbrahimGraduate Student, Big Data Analytics and Management | Bahçeşehir University (BAU)
+
+
+
+
+
+
+
+
+
