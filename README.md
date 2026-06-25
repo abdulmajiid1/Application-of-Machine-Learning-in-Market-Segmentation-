@@ -35,8 +35,9 @@ To set up the project locally, ensure you have Python 3.8+ installed, clone this
 # Clone the repository
 git clone [https://github.com/your-username/your-repository-name.git](https://github.com/your-username/your-repository-name.git)
 cd your-repository-name
-
 ```bash
+
+---
 
 # Install dependencies
 pip install pandas numpy matplotlib seaborn scikit-learn openpyxl
