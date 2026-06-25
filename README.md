@@ -1,6 +1,6 @@
 # Market Segmentation Using Machine Learning Algorithms
 
-Welcome to the **Market Segmentation Using Machine Learning Algorithms** repository. This project implements an end-to-end unsupervised data science pipeline designed to discover, profile, and evaluate distinct market segments from large-scale transactional data.
+Welcome to the **Market Segmentation Using Machine Learning Algorithms** repository. This project implements a professional, end-to-end unsupervised data science pipeline designed to discover, profile, and evaluate distinct customer segments from large-scale transactional data.
 
 By engineering behavioral features and leveraging advanced clustering techniques, this system transforms raw historical logs into highly actionable business cohorts, enabling data-driven marketing, customer relationship management (CRM), and lifetime value (LTV) optimization.
 
@@ -35,72 +35,6 @@ To set up the project locally, ensure you have Python 3.8+ installed, clone this
 # Clone the repository
 git clone [https://github.com/your-username/your-repository-name.git](https://github.com/your-username/your-repository-name.git)
 cd your-repository-name
-```bash
-
----
 
 # Install dependencies
 pip install pandas numpy matplotlib seaborn scikit-learn openpyxl
-```bash
----
-## 📊 Models & Evaluation Summary
-
-The pipeline systematically trains and evaluates two distinct unsupervised clustering architectures over the standardized behavioral data:
-
-### 1. K-Means Clustering
-
-* **Methodology:** Initialized via `k-means++` with randomized centroid search parameters.
-* **Hyperparameter Tuning:** Evaluated over $K \in [2, 10]$ boundaries.
-* **Optimal Topology:** Determined at **$K = 4$ clusters** based on joint Elbow and Silhouette optimizations.
-
-### 2. Hierarchical Agglomerative Clustering
-
-* **Methodology:** Bottom-up linkage using Ward’s variance minimization method combined with Euclidean distance metrics.
-* **Structure:** Set to **4 clusters** to allow formal comparative benchmarking against the K-Means layout.
-
-### Performance Benchmarking
-
-| Clustering Model | Silhouette Score (Higher is Better) | Davies-Bouldin Index (Lower is Better) |
-| --- | --- | --- |
-| **K-Means ($K=4$)** | **0.3367** | **1.0117** |
-| **Agglomerative ($K=4$)** | 0.2385 | 1.1200 |
-
-*Conclusion:* The quantitative validation indicates that **K-Means Clustering** provides tighter cluster definitions, superior cluster separation, and a more robust foundation for business profiling.
-
----
-
-## 🎯 Discovered Customer Segments
-
-The optimized K-Means model splits the user base into 4 strategic tiers:
-
-* **Champions (Cluster 3):** High-frequency, high-spending premium users with recent engagement. *Action Plan: Exclusive VIP tiers, loyalty perks, and early-access launches.*
-* **Loyal Customers (Cluster 1):** Steady, dependable buyers generating consistent mid-to-high revenue share. *Action Plan: Category cross-selling and volume discount thresholds.*
-* **At-Risk Customers (Cluster 2):** Recent buyers who have a lower historical frequency. *Action Plan: High-relevance product recommendations and immediate retargeting sequences.*
-* **Lost / Inactive (Cluster 0):** Low frequency, low monetary value, and long periods of inactivity. *Action Plan: High-incentive win-back campaigns or automated re-engagement surveys.*
-
----
-
-## 💻 Usage
-
-To run the pipeline and generate the customer classification outputs:
-
-1. Place your retail source dataset in the root folder.
-2. Launch the notebook environment:
-
-jupyter notebook Market_Segmentation.ipynb
-
-```
-
-
-3. Execute the cells sequentially. The final cells will save a segmented customer matrix to your local path as **`rfm_segments_output.csv`**.
-
----
-
-## 👤 Author
-
-* **Abdimajid Osman Ibrahim**
-* Graduate Student, Big Data Analytics and Management | Bahçeşehir University (BAU)
-
-```
-
-```
