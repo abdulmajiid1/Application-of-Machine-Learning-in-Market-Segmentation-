@@ -1,8 +1,3 @@
-I cannot directly access live external web links or specific private URLs to view the formatting of that exact repository.
-
-However, if you want your **Market Segmentation** README to match the professional structural style often used for advanced NLP/Deep Learning repositories (like T5 dialogue summarization)—which typically features clear architectural blocks, installation prerequisites, model evaluation sections, and structured usage guides—I have tailored the markdown template below to mirror that clean, production-ready aesthetic.
-
-Here is a highly professional, comprehensive `README.md` file designed for your project. You can copy and paste this directly into your GitHub repository:
 
 ```markdown
 # Market Segmentation Using Machine Learning Algorithms
