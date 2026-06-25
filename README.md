@@ -1,5 +1,3 @@
-
-```markdown
 # Market Segmentation Using Machine Learning Algorithms
 
 Welcome to the **Market Segmentation Using Machine Learning Algorithms** repository. This project implements a professional, end-to-end unsupervised data science pipeline designed to discover, profile, and evaluate distinct customer segments from large-scale transactional data.
@@ -40,14 +38,6 @@ cd your-repository-name
 
 # Install dependencies
 pip install pandas numpy matplotlib seaborn scikit-learn openpyxl
-
-```
-
-### Dataset Structure
-
-The notebook expects the **Online Retail** transactional dataset (e.g., `Online Retail.xlsx` or similar structural source) inside the working directory. The raw dataset must contain features such as `InvoiceNo`, `StockCode`, `Quantity`, `InvoiceDate`, `UnitPrice`, and `CustomerID`.
-
----
 
 ## 📊 Models & Evaluation Summary
 
