@@ -1,8 +1,3 @@
-To ensure GitHub doesn't treat text as a continuous code block, you need to make sure there are **empty lines** before and after the code sections, and that your markdown titles explicitly start with `#` or `##` on a brand new line.
-
-If you are using the GitHub website editor (or editing a file directly on GitHub), markdown can sometimes act weird if backticks (`````) are improperly closed.
-
-To fix it immediately and keep everything perfectly separated without any unintended code formatting, copy and paste this structure below:
 
 ```markdown
 # Market Segmentation Using Machine Learning Algorithms
