@@ -6,7 +6,7 @@ By engineering behavioral features and leveraging advanced clustering techniques
 
 ---
 
-## 🚀 Features & Pipeline Architecture
+### 🚀 Features & Pipeline Architecture
 
 The repository contains a fully documented, structured Jupyter Notebook pipeline including:
 
