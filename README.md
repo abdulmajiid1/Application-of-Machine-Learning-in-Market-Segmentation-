@@ -42,7 +42,7 @@ pip install pandas numpy matplotlib seaborn scikit-learn openpyxl
 ---
 ---
 
-📊 Models & Evaluation Summary
+### 📊 Models & Evaluation Summary
 The pipeline systematically trains and evaluates two distinct unsupervised clustering architectures over the standardized behavioral data:
 
 1. K-Means Clustering
