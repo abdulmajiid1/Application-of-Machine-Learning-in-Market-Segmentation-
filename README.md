@@ -39,7 +39,7 @@ cd your-repository-name
 # Install dependencies
 pip install pandas numpy matplotlib seaborn scikit-learn openpyxl
 
-
+```bash
 
 
 
@@ -89,7 +89,7 @@ To run the pipeline and generate the customer classification outputs:
 
 1. Place your retail source dataset in the root folder.
 2. Launch the notebook environment:
-```bash
+
 jupyter notebook Market_Segmentation.ipynb
 
 ```
