@@ -39,20 +39,6 @@ cd your-repository-name
 # Install dependencies
 pip install pandas numpy matplotlib seaborn scikit-learn openpyxl
 
-I cannot directly access live external web links or specific private URLs to view the formatting of that exact repository.
-
-However, if you want your **Market Segmentation** README to match the professional structural style often used for advanced NLP/Deep Learning repositories (like T5 dialogue summarization)—which typically features clear architectural blocks, installation prerequisites, model evaluation sections, and structured usage guides—I have tailored the markdown template below to mirror that clean, production-ready aesthetic.
-
-Here is a highly professional, comprehensive `README.md` file designed for your project. You can copy and paste this directly into your GitHub repository:
-
-```markdown
-# Market Segmentation Using Machine Learning Algorithms
-
-Welcome to the **Market Segmentation Using Machine Learning Algorithms** repository. This project implements a professional, end-to-end unsupervised data science pipeline designed to discover, profile, and evaluate distinct customer segments from large-scale transactional data.
-
-By engineering behavioral features and leveraging advanced clustering techniques, this system transforms raw historical logs into highly actionable business cohorts, enabling data-driven marketing, customer relationship management (CRM), and lifetime value (LTV) optimization.
-
----
 
 ## 🚀 Features & Pipeline Architecture
 
@@ -87,13 +73,7 @@ cd your-repository-name
 # Install dependencies
 pip install pandas numpy matplotlib seaborn scikit-learn openpyxl
 
-```
 
-### Dataset Structure
-
-The notebook expects the **Online Retail** transactional dataset (e.g., `Online Retail.xlsx` or similar structural source) inside the working directory. The raw dataset must contain features such as `InvoiceNo`, `StockCode`, `Quantity`, `InvoiceDate`, `UnitPrice`, and `CustomerID`.
-
----
 
 ## 📊 Models & Evaluation Summary
 
