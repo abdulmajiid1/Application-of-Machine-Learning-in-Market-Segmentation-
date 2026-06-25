@@ -43,22 +43,7 @@ pip install pandas numpy matplotlib seaborn scikit-learn openpyxl
 
 ```
 
----
 
-## 📋 Dataset Structure
-
-The notebook expects the **Online Retail** transactional dataset (e.g., `Online Retail.xlsx` or similar structural source) inside the working directory.
-
-The raw dataset must contain features such as:
-
-* `InvoiceNo`
-* `StockCode`
-* `Quantity`
-* `InvoiceDate`
-* `UnitPrice`
-* `CustomerID`
-
----
 
 ## 📊 Models & Evaluation Summary
 
