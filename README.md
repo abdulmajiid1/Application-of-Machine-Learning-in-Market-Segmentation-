@@ -41,7 +41,8 @@ cd your-repository-name
 
 # Install dependencies
 pip install pandas numpy matplotlib seaborn scikit-learn openpyxl
-
+```bash
+---
 ## 📊 Models & Evaluation Summary
 
 The pipeline systematically trains and evaluates two distinct unsupervised clustering architectures over the standardized behavioral data:
