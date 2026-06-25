@@ -4,7 +4,7 @@ Welcome to the **Market Segmentation Using Machine Learning Algorithms** reposit
 
 By engineering behavioral features and leveraging advanced clustering techniques, this system transforms raw historical logs into highly actionable business cohorts, enabling data-driven marketing, customer relationship management (CRM), and lifetime value (LTV) optimization.
 
----
+---      
 
 ### 🚀 Features & Pipeline Architecture
 
@@ -39,7 +39,7 @@ cd your-repository-name
 # Install dependencies
 pip install pandas numpy matplotlib seaborn scikit-learn openpyxl
 
----
+
 ---
 
 ### 📊 Models & Evaluation Summary
